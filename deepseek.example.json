@@ -1,0 +1,31 @@
+{
+    "defaultHost": "https://api.deepseek.com",
+    "defaultApikey": "sk-",
+    "defaultModel": "deepseek-chat",
+    "defaultLang": "en",
+    "monthQuota": 3000,
+    "modelsConfig": {
+        "deepseek-chat": true,
+        "deepseek-reasoner": true
+    },
+    "predefinedPrompts": {
+        "en": [
+            {
+                "id": "1687485513228",
+                "predefined": true,
+                "title": "command DeepSeek:Edit predefined prompt",
+                "content": "command DeepSeek:Edit predefined prompt",
+                "append_selected_text": false
+            }
+        ],
+        "cn": [
+            {
+                "id": "1687485513228",
+                "predefined": true,
+                "title": "命令 DeepSeek:编辑预定义提示词",
+                "content": "命令 DeepSeek:编辑预定义提示词",
+                "append_selected_text": false
+            }
+        ]
+    }
+}
